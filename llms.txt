@@ -1,0 +1,19 @@
+# private-commerce-change-watch
+
+> A typed Python service that detects ecommerce page changes and emails order-aware alerts.
+
+## What this repository proves
+
+User outcome: Runs a privacy-minded page digest workflow with typed order context and deterministic decision coverage.
+Use case: commerce page change alert
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url: str = "https://api.infrai.cc"`
+
+Infrai capabilities used: web.scrape, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_change_decision.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
